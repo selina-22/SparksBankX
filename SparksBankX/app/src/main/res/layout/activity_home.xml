@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BankX"
+                android:textSize="50dp"
+                android:fontFamily="@font/tahoma_b"
+                android:textColor="@color/fontBlue"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TRANSFER MONEY SAFETLY!"
+                android:textSize="11.25dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tahoma_b"
+                android:textColor="@color/fontBlue"
+                android:layout_marginBottom="50dp"
+                android:gravity="center_horizontal" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="350dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/fontBlue" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select an option from below"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/tahoma_b"
+                android:textColor="@color/fontLightBlue"
+                android:gravity="center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/customerButton"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/customerlistbutton"
+                android:background="@null"
+                android:layout_gravity="center"
+                />
+            <ImageButton
+                android:id="@+id/depositButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/transfermoneybutton"
+                android:background="@null"
+                android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

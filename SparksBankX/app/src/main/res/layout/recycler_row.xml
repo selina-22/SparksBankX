@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/full_rounded_white"
+    >
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/full_rounded_white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/full_rounded_white"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/srnoTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:fontFamily="@font/bebas"
+                android:textColor="@color/fontBlue"
+                android:textSize="40dp"/>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:id="@+id/customerNameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:fontFamily="@font/bebas"
+                    android:textColor="@color/fontBlue"
+                    android:textSize="25dp"/>
+
+                <TextView
+                    android:id="@+id/customerBalanceTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Balance"
+                    android:fontFamily="@font/bebas"
+                    android:textColor="@color/fontBlue"
+                    android:textSize="15dp"/>
+
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/customerBankIdTV"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BANK-ID"
+                android:fontFamily="@font/bebas"
+                android:textColor="@color/fontBlue"
+                android:textSize="30dp"/>
+"
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
